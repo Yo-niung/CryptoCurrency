@@ -1,0 +1,76 @@
+#       ----------- + CryptoCurrency by Ziga Zajc + -----------   #
+#                                                                 #
+#                               Config                            #
+#                                                                 #
+#       ----------- + --------------------------- + -----------   #
+#
+#       You can use chat colors:
+#                ________________________
+#               |   code: | color:       |
+#               |________________________|
+#               |     &0  |	Black	     |
+#               |     &1  |	Dark Blue	 |
+#               |     &2  |	Dark Green	 |
+#               |     &3  |	Dark Aqua	 |
+#               |     &4  |	Dark Red	 |
+#               |     &5  |	Dark Purple	 |
+#               |     &6  |	Gold	     |
+#               |     &7  |	Gray	     |
+#               |     &8  |	Dark Gray	 |
+#               |     &9  |	Blue	     |
+#               |     &a  |	Green	     |
+#               |     &b  |	Aqua	     |
+#               |     &c  |	Red	         |
+#               |     &d  |	Light Purple |
+#               |     &e  |	Yellow	     |
+#               |     &f  |	White	     |
+#               |     &k  |	Obfuscated	 |
+#               |     &l  |	Bold	     |
+#               |     &m  |	Strikethrough|
+#               |     &n  |	Underline	 |
+#               |     &o  |	Italic	     |
+#               |     &r  |	Reset	     |
+#               |________________________|
+#
+#----------------------------------------------------------
+#                         Prefix
+#----------------------------------------------------------
+prefix: "&7[&b₿TC&7] "
+#----------------------------------------------------------
+#                       Commands
+#----------------------------------------------------------
+permission: "&c이 작업을 수행할 권한이 없습니다!"
+is_not_a_player: "&c{player}는 플레이어가 아닙니다!"
+is_not_a_number: "&c{number}는 숫자가 아닙니다!"
+wrong_arguments: "&c/{crypto} help를 사용하십시오"
+vault_required: "&c이 작업을 완료하기 위해 서버에 Vault가 설치되어 있지 않습니다!"
+#----------------------------------------------------------
+#                        Help
+#----------------------------------------------------------
+help:
+  - "&7&7명령어 목록:"
+  - ""
+  - "{color}/{crypto} balance &7- {crypto} 잔액 확인"
+  - "{color}/{crypto} price <amount> &7- {crypto} 가격 표시"
+  - "{color}/{crypto} buy <amount> &7- {crypto} 구매"
+  - "{color}/{crypto} sell <amount> &7- 판매 {crypto}"
+  - "{color}/{crypto} send <player> <amount> &7- 플레이어에게 {crypto} 보내기"
+  - ""
+#----------------------------------------------------------
+#                       Messages
+#----------------------------------------------------------
+message_money_not_enough: "&c돈이 충분하지 않습니다."
+message_balance: "&a지갑에 {color}{amount} {crypto} &a가 있습니다."
+message_balance_player: "&2{player}&a의 지갑에 {color}{amount} {crypto} &a가 있습니다."
+message_not_enough: "&c이 작업을 완료하려면 {color}{crypto} &c{amount}개가 부족합니다."
+message_send_success: "&a{color}{amount} {crypto} &a를 &2{player}&a에게 보냈습니다."
+message_send_yourself: "&c자기 자신에게 {color}{crypto} &c를 보낼 수 없습니다!"
+message_receive_success: "&2{player}&a가 {color}{amount} {crypto} &a를 보냈습니다."
+message_taken_player: "&a당신은 &2{player}&a의 지갑에서 {color}{amount} {crypto} &a를 가져왔습니다."
+message_taken_target: "&2{player}&c님이 &c{color}{amount} {crypto} &c를 빼앗겼습니다."
+message_sell: "&a{color}{amount} {crypto} &a를 &2{money}₮&a에 팔았습니다."
+message_buy: "&a{color}{amount} {crypto} &a를 &2{money}₮&a에 구매했습니다."
+message_price: "{color}{amount} {crypto} &a는 &2{money}₮&a입니다."
+message_maximum: "&c{color}{crypto} &c는 최대 {amount}개까지만 처리 가능합니다."
+message_minimum: "&c{color}{crypto} &c는 최소 {amount}개 이상이어야만 처리 가능합니다."
+message_top_players: "&e======&a&l{crypto} &f&l보유량 순위&e====="

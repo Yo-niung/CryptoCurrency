@@ -1,0 +1,8 @@
+name: CryptoCurrency
+version: ${project.version}
+main: com.rabbitcompany.CryptoCurrency
+api-version: 1.13
+softdepend: [Vault, PlaceholderAPI]
+authors: [Glen_Yhy]
+description: Crypto in minecrafe
+website: http://tisster.iptime.org

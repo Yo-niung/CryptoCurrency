@@ -1,0 +1,86 @@
+#       ----------- + CryptoCurrency by Ziga Zajc + -----------   #
+#                                                                 #
+#                               Config                            #
+#                                                                 #
+#       ----------- + --------------------------- + -----------   #
+#
+#       You can use chat colors:
+#                ________________________
+#               |   code: | color:       |
+#               |________________________|
+#               |     &0  |	Black	     |
+#               |     &1  |	Dark Blue	 |
+#               |     &2  |	Dark Green	 |
+#               |     &3  |	Dark Aqua	 |
+#               |     &4  |	Dark Red	 |
+#               |     &5  |	Dark Purple	 |
+#               |     &6  |	Gold	     |
+#               |     &7  |	Gray	     |
+#               |     &8  |	Dark Gray	 |
+#               |     &9  |	Blue	     |
+#               |     &a  |	Green	     |
+#               |     &b  |	Aqua	     |
+#               |     &c  |	Red	         |
+#               |     &d  |	Light Purple |
+#               |     &e  |	Yellow	     |
+#               |     &f  |	White	     |
+#               |     &k  |	Obfuscated	 |
+#               |     &l  |	Bold	     |
+#               |     &m  |	Strikethrough|
+#               |     &n  |	Underline	 |
+#               |     &o  |	Italic	     |
+#               |     &r  |	Reset	     |
+#               |________________________|
+#
+#----------------------------------------------------------
+#                         Prefix
+#----------------------------------------------------------
+prefix: "&7[&bCryptoCurrency&7] "
+#----------------------------------------------------------
+#                       Commands
+#----------------------------------------------------------
+permission: "&cYou don't have permission to do this!"
+is_not_a_player: "&c{player} isn't a player!"
+is_not_a_number: "&c{number} isn't a number!"
+wrong_arguments: "&cPlease use /{crypto} help"
+vault_required: "&cYour server don't have installed Vault to complete this action!"
+#----------------------------------------------------------
+#                        Help
+#----------------------------------------------------------
+help:
+  - "&7Listing commands:"
+  - ""
+  - "{color}/{crypto} balance &7- Check {crypto} balance"
+  - "{color}/{crypto} price <amount> &7- Show {crypto} price"
+  - "{color}/{crypto} buy <amount> &7- buy {crypto}"
+  - "{color}/{crypto} sell <amount> &7- sell {crypto}"
+  - "{color}/{crypto} send <player> <amount> &7- Send {crypto} to player"
+  - ""
+#----------------------------------------------------------
+#                       Messages
+#----------------------------------------------------------
+message_money_not_enough: "&cYou don't have enough money to complete this action."
+message_balance: "&aYou have {color}{amount} {crypto} &ain your wallet."
+message_balance_player: "&2{player}&a has {color}{amount} {crypto} &ain his wallet."
+message_not_enough: "&cYou don't have enough {color}{crypto} &cto complete this action."
+message_send_success: "&aYou have sent {color}{amount} {crypto} &ato &2{player}&a."
+message_send_yourself: "&cYou can't send {color}{crypto} &cto yourself!"
+message_receive_success: "&2{player} &ahas sent you {color}{amount} {crypto}&a."
+message_taken_player: "&aYou have taken {color}{amount} {crypto} &afrom &2{player}&a."
+message_taken_target: "&2{player} &chas taken you {color}{amount} {crypto}&c."
+message_sell: "&aYou have just sold {color}{amount} {crypto} &afor &2${money}&a."
+message_buy: "&aYou have just bought {color}{amount} {crypto} &afor &2${money}&a."
+message_price: "{color}{amount} {crypto} &ais worth &2${money}"
+message_maximum: "&cYou can't manage with more than {color}{amount} {crypto}&c."
+message_minimum: "&cYou can't manage with less than {color}{amount} {crypto}&c."
+message_max_supply_reached: "&cYou can't buy {color}{amount} {crypto}&c, because maximum {color}{crypto} &csupply has been reached."
+#----------------------------------------------------------
+#                      Sign Shop
+#----------------------------------------------------------
+message_bought: "&aYou have bought &6{amount}x {material} &afor {color}{crypto}&a!"
+message_sold: "&aYou have sold &6{amount}x {material} &afor {color}{crypto}&a!"
+message_not_enough_items: "&cYou don't have enough &6{material} &cto complete this action."
+message_not_enough_money: "&2{player} &cdoesn't have enough money."
+message_empty_chest: "&cThis shop is out of stock!"
+message_full_chest: "&cThis shop is overstocked!"
+message_full_inventory: "&cYour inventory is full."
